@@ -1,29 +1,22 @@
 
 <h2>Number of employees at different locations</h2>
 
+{{log model}}
 
-{{#g-map lat=centerLat1 lng=centerLng1 zoom=zoom as |context|}}
-  {{#g-map-marker context lat=centerLat1 lng=centerLng1 label="1" as |markerContext|}}
+{{#g-map lat=37.7833 lng=-122.4167 zoom=14 as |context|}}
+
+{{#each model as |site|}}
+
+  {{#g-map-marker context lat=site.centerLat lng=site.centerLng label=site.label as |markerContext|}}
     {{#g-map-infowindow markerContext openOn="click" closeOn="click"}}
-    <h3>Site 1</h3>
-    <p>{{employee1}}  employees</p>
+    <h5>{{site.id}}</h5>
+    <p>{{site.employee}}  employees</p>
     {{/g-map-infowindow}}
   {{/g-map-marker}}
-  {{#g-map-marker context lat=centerLat2 lng=centerLng2 label="2" as |markerContext|}}
-    {{#g-map-infowindow markerContext openOn="click" closeOn="click"}}
-    <h3>Site 2</h3>
-    <p>{{employee2}}  employees</p>
-    {{/g-map-infowindow}}
-  {{/g-map-marker}}
-  {{#g-map-marker context lat=centerLat3 lng=centerLng3 label="3" as |markerContext|}}
-    {{#g-map-infowindow markerContext openOn="click" closeOn="click"}}
-    <h3>Site 3</h3>
-    <p>{{employee3}}  employees</p>
-    {{/g-map-infowindow}}
-  {{/g-map-marker}}
+
+ {{/each}}
 
 {{/g-map}}
-
 
 
 {{outlet}}

@@ -7,7 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('dashBoard');
-  this.route('location');
+  this.route('location', {path: "location"});
   this.route('summary');
   this.route('issues');
 });
