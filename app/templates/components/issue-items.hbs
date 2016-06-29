@@ -1,0 +1,34 @@
+
+<input class="toFilter" type="text" value={{newFilter}} placeholder="filter" onkeyup={{action "filter" value="target.value"}}/>
+
+<table class='table-responsive table table-striped'>
+	<thead>
+		<tr>
+			<th class="sorting" {{action 'sortBySubDate'}}>Submission date <span class="glyphicon glyphicon-triangle-bottom"></span></th>
+			<th class="sorting" {{action 'sortByName'}}>Name<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+			<th class="sorting" {{action 'sortByEmail'}}>Email<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+			<th class="sorting" {{action 'sortByDesc'}}>Description<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+			<th class="sorting" {{action 'sortByStatus'}}>Status<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+			<th class="sorting" {{action 'sortByClose'}}>Closed date<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+			<th class="sorting" {{action 'sortByEmpl'}}>Employee<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+		</tr>
+	</thead>
+	<tbody>
+
+		{{#each model as |issue|}}
+
+		<tr>
+			<td>{{issue.subDate}}</td>
+			<td>{{issue.name}}</td>
+			<td>{{issue.email}}</td>
+			<td>{{issue.desc}}</td>
+			<td>{{issue.status}}</td>
+			<td>{{issue.closeDate}}</td>
+			<td>{{issue.employee}}</td>
+		</tr>
+
+	{{/each}}
+	</tbody>
+</table>
+
+{{yield}}

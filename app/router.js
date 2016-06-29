@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('location', {path: "location"});
   this.route('summary');
   this.route('issues');
+  this.route('addPerson');
 });
 
 export default Router;
