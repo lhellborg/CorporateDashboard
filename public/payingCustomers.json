@@ -1,0 +1,64 @@
+[{
+	"year 2012": [
+		{
+		"month": 0,
+		"day": 1,
+		"customers": 40
+		},
+		{
+		"month": 1,
+		"day": 1,
+		"customers": 44
+		},
+		{
+		"month": 2,
+		"day": 1,
+		"customers": 48
+		},
+		{
+		"month": 3,
+		"day": 1,
+		"customers": 35
+		},
+		{
+		"month": 4,
+		"day": 1,
+		"customers": 24
+		},
+		{
+		"month": 5,
+		"day": 1,
+		"customers": 31
+		},
+		{
+		"month": 6,
+		"day": 1,
+		"customers": 49
+		},
+		{
+		"month": 7,
+		"day": 1,
+		"customers": 56
+		},
+		{
+		"month": 8,
+		"day": 1,
+		"customers": 60
+		},
+		{
+		"month": 9,
+		"day": 1,
+		"customers": 70
+		},
+		{
+		"month": 10,
+		"day": 1,
+		"customers": 77
+		},
+		{
+		"month": 11,
+		"day": 1,
+		"customers": 80
+		}
+	]
+}]
