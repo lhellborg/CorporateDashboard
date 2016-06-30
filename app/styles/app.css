@@ -1,11 +1,23 @@
 html, body {
-height: 100%;
-margin: 0;
-padding: 0;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #ecebe8;
+}
+
+.navbar {
+	background: #cbe0f3;
 }
 
 .g-map-canvas {
- height: 100%;
-height: calc(100vh - 170px);
+	height: 100%;
+	height: calc(100vh - 170px);
+}
+
+.dashBoardText {
+	text-align: center;
+    text-shadow: 2px 2px greenyellow;
+    text-transform: capitalize;
+    font-family: monospace;
 }
 

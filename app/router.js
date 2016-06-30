@@ -8,9 +8,12 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('dashBoard');
   this.route('location', {path: "location"});
-  this.route('summary');
+  this.route('summary', function() {
+    this.route('openIssues');
+    this.route('lineChart');
+    this.route('barChart');
+  });
   this.route('issues');
-  this.route('addPerson');
 });
 
 export default Router;

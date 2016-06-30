@@ -20,6 +20,15 @@ export default Ember.Route.extend({
 			status: "open",
 			closeDate: "2013-05-23T18:25:43.511Z",
 			employee: "Anna"
+		},
+		{
+			subDate: "2013-06-23T18:25:43.511Z",
+			name: "Bo",
+			email: "bo@dsf",
+			desc: "any description",
+			status: "open",
+			closeDate: "2013-08-23T18:25:43.511Z",
+			employee: "Elias"
 		}
 		];
 	}

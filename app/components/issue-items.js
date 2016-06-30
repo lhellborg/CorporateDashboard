@@ -41,15 +41,15 @@ export default Ember.Component.extend({
 		},
 
 		filter: function(filterName) {
-			if (filterName == "") {
-				this.set("model", this.originalModel)
+			if (filterName === "") {
+				this.set("model", this.originalModel);
 			} else {
 				filterName = filterName.toLowerCase();
 				var items = this.originalModel;
 				items = _.filter(items, function(item) {
 					var values = _.values(item);
 					return _.find(values, function(value) {
-						var findMe = value.toLowerCase().indexOf(filterName)
+						var findMe = value.toLowerCase().indexOf(filterName);
 						return findMe >= 0;
 					});
 				});

@@ -36,8 +36,10 @@
     "ember-data": "^2.6.0",
     "ember-export-application-global": "^1.0.5",
     "ember-g-map": "0.0.19",
+    "ember-highcharts": "0.4.4",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
+    "highcharts": "4.2.5",
     "loader.js": "^4.0.1"
   }
 }
