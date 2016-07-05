@@ -5,23 +5,16 @@ export default Ember.Route.extend({
 	data: Ember.inject.service('issue-manager'),
 
 	model() {
-		return this.get('data').model();
-	},
-
-	actions: {
-		count(data) {
+		return this.get('data').model().then(function(results) {
 			var openIssues = 0;
-			data.forEach(function(issue) {
+			results.data.forEach(function(issue) {
 				if (issue.status === 'open') {
 					openIssues += 1;
-
 				}
 			})
-			console.log(openIssues);
-		}
-
+			return {openIssues: openIssues};
+		});
 	}
-
 
 
 });
