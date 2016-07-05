@@ -16,7 +16,7 @@ html, body {
 
 .dashBoardText {
 	text-align: center;
-    text-shadow: 2px 2px greenyellow;
+    text-shadow: 2px 2px #fafbf9;
     text-transform: capitalize;
     font-family: monospace;
 }

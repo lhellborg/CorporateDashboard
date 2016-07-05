@@ -1,0 +1,10 @@
+subDate,name,email,desc,status,closeDate,employee
+2014-04-23T18:25:43.511Z,John,john2@dsf,some description,closed,2014-05-23T18:25:43.511Z,Anna
+2015-04-23T18:25:43.511Z,Frank,frank@dsf,other description,open,,Anna
+2015-06-23T18:25:43.511Z,Bo,bo@dsf,any description,open,,Elias
+2015-08-23T18:25:43.511Z,Lo,bo@dsf,any description,open,,Stina
+2015-08-23T18:25:43.511Z,Knut,knut@dsf,any description,open,,Elin
+2015-08-23T18:25:43.511Z,San,san@dsf,any description,open,,Pia
+2013-08-23T18:25:43.511Z,Kant,kant@dsf,any description,closed,2013-10-23T18:25:43.511Z,Marit
+2015-08-23T18:25:43.511Z,Manne,manne@dsf,any description,open,,Stina
+2015-06-23T18:25:43.511Z,Linn,linn@dsf,any description,closed,2015-11-23T18:25:43.511Z,Stina

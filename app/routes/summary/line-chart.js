@@ -4,4 +4,5 @@ export default Ember.Route.extend({
  	model() {
  		return Ember.$.get('/payingCustomers.json');
  	}
+
 });
