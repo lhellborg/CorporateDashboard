@@ -1,14 +1,15 @@
-<h2>Summary</h2>
-
-<h3>
-	{{#link-to 'summary.openIssues'}}Open Issues{{/link-to}}
-</h3>
-
-<h3>
-	{{#link-to 'summary.lineChart'}}Number of paying customers/time{{/link-to}}
-</h3>
+<h1>Summary</h1>
+<h2>There are <span class= "openIssues">{{model.openIssues}}</span> open issues</h2>
 
 
-<h3>{{#link-to 'summary.barChart'}}Number of issues/time{{/link-to}}</h3>
+<div class="container">
+  <h2>Graphs</h2>
+  <ul class="nav nav-tabs">
+    <li><a class="graphTab" data-toggle="tab" >{{#link-to 'summary.lineChart'}}Paying customers/time{{/link-to}}</a></li>
+    <li><a class="graphTab" data-toggle="tab" >{{#link-to 'summary.barChart'}}Issues/time{{/link-to}}</a></li>
+  </ul>
+  <br>
+  {{outlet}}
+</div>
 
-{{outlet}}
+

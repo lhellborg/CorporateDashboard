@@ -9,7 +9,6 @@ Router.map(function() {
   this.route('dashBoard');
   this.route('location', {path: "location"});
   this.route('summary', function() {
-    this.route('openIssues');
     this.route('lineChart');
     this.route('barChart');
   });

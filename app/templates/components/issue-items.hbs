@@ -1,16 +1,17 @@
-
+<!-- filtering in the table -->
 <input class="toFilter" type="text" value={{newFilter}} placeholder="filter" onkeyup={{action "filter" value="target.value"}}/>
 
+<!-- a responisve table with sorting abilities -->
 <table class='table-responsive table table-striped'>
 	<thead>
 		<tr>
-			<th class="sorting" {{action 'sortBySubDate'}}>Submission date <span class="glyphicon glyphicon-triangle-bottom"></span></th>
-			<th class="sorting" {{action 'sortByName'}}>Name<span class="glyphicon glyphicon-triangle-bottom"></span></th>
-			<th class="sorting" {{action 'sortByEmail'}}>Email<span class="glyphicon glyphicon-triangle-bottom"></span></th>
-			<th class="sorting" {{action 'sortByDesc'}}>Description<span class="glyphicon glyphicon-triangle-bottom"></span></th>
-			<th class="sorting" {{action 'sortByStatus'}}>Status<span class="glyphicon glyphicon-triangle-bottom"></span></th>
-			<th class="sorting" {{action 'sortByClose'}}>Closed date<span class="glyphicon glyphicon-triangle-bottom"></span></th>
-			<th class="sorting" {{action 'sortByEmpl'}}>Employee<span class="glyphicon glyphicon-triangle-bottom"></span></th>
+			<th class="sorting" {{action 'sortBySubDate'}}>Submission date <span class="glyphicon glyphicon-sort"></span></th>
+			<th class="sorting" {{action 'sortByName'}}>Name <span class="glyphicon glyphicon-sort"></span></th>
+			<th class="sorting" {{action 'sortByEmail'}}>Email <span class="glyphicon glyphicon-sort"></span></th>
+			<th class="sorting" {{action 'sortByDesc'}}>Description <span class="glyphicon glyphicon-sort"></span></th>
+			<th class="sorting" {{action 'sortByStatus'}}>Status <span class="glyphicon glyphicon-sort"></span></th>
+			<th class="sorting" {{action 'sortByClose'}}>Closed date <span class="glyphicon glyphicon-sort"></span></th>
+			<th class="sorting" {{action 'sortByEmpl'}}>Employee <span class="glyphicon glyphicon-sort"></span></th>
 		</tr>
 	</thead>
 	<tbody>
