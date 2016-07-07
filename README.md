@@ -1,4 +1,4 @@
-# Project4
+# Project 4 - Corporate dashboard
 
 This is a corporate dashboard application using `Ember`,  as front-end MVC framework, `JQuery` and `Bootstrap` for facilitate JS and responsiveness. `PapaParse` is used to parse the .CSV file and `Highchart` to display nice charts. 
 
@@ -10,7 +10,7 @@ The dashboard application contains a header (with the currently selected dashboa
 
     -the number of open issues, 
     -a line chart reflecting number of paying customers over a period of time,
-     -and a bar chart reflecting number of reported issues over a period of time.
+    -and a bar chart reflecting number of reported issues over a period of time.
 
 -A **“data view”** of all issues, with an appearance similar to a spreadsheet, that is sortable and filterable.
 
