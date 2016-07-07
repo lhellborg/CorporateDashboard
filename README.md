@@ -1,7 +1,12 @@
 # Project4
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a corporate dashboard application using Ember as front-end MVC framework. The dashboard application contains a header (with the currently selected dashboard’s name); a menu, allowing the user to navigate between dashboards; and the primary dashboard display area. The provided data to the dashboards  are CSV and JSON files. There are 3 main views:
+
+-A **geospatial view**, identifying the number of employees at various company locations.
+-A **“summary” view**, containing components displaying: 
+    -the number of open issues, 
+    -a line chart reflecting number of paying customers over a period of time, -and a bar chart reflecting number of reported issues over a period of time.
+-A **“data view”** of all issues, with an appearance similar to a spreadsheet, that is sortable and filterable.
 
 ## Prerequisites
 

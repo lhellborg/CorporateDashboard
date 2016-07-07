@@ -8,7 +8,7 @@ export default Ember.Component.extend({
   		this.originalModel = this.get("model");
   	},
 
-// sorting in the model by the attribute key
+// sorting ascending order in the model by the attribute key
 	sortByAsc: function(attribute) {
 		var items = this.originalModel;
 		items = _.sortBy(items, function(item) {
@@ -17,7 +17,7 @@ export default Ember.Component.extend({
 		this.set("model", items);
 	},
 
-	// sorting in the model by the attribute key
+	// sorting strings in descending order in the model by the attribute key
 	sortByDescString: function(attribute) {
 		var items = this.originalModel;
 		items = _.sortBy(items, function(item) {
@@ -26,7 +26,7 @@ export default Ember.Component.extend({
 		this.set("model", items);
 	},
 
-		// sorting in the model by the attribute key
+		// sorting dates in descending order in the model by the attribute key
 	sortByDescNum: function(attribute) {
 		var items = this.originalModel;
 		items = _.sortBy(items, function(item) {
@@ -41,6 +41,7 @@ export default Ember.Component.extend({
 		this.set("model", items);
 	},
 
+	// variable to toggle so the sorting varies from ascending to descending
  	ascending: false,
 
 	actions: {
