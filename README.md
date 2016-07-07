@@ -1,12 +1,13 @@
 # Project4
 
-This is a corporate dashboard application using `Ember`,  as front-end MVC framework, `JQuery` and `Bootstrap` for responsiveness. `PapaParse` is used to parse the .CSV file and `Highchart` to display nice charts. 
+This is a corporate dashboard application using `Ember`,  as front-end MVC framework, `JQuery` and `Bootstrap` for facilitate JS and responsiveness. `PapaParse` is used to parse the .CSV file and `Highchart` to display nice charts. 
 
 The dashboard application contains a header (with the currently selected dashboard’s name); a menu, allowing the user to navigate between dashboards; and the primary dashboard display area. The provided data to the dashboards  are CSV and JSON files. There are 3 main views:
 
 -A **geospatial view**, identifying the number of employees at various company locations.
 
 -A **“summary” view**, containing components displaying: 
+
     -the number of open issues, 
     -a line chart reflecting number of paying customers over a period of time, -and a bar chart reflecting number of reported issues over a period of time.
 
