@@ -9,7 +9,8 @@ The dashboard application contains a header (with the currently selected dashboa
 -A **“summary” view**, containing components displaying: 
 
     -the number of open issues, 
-    -a line chart reflecting number of paying customers over a period of time, -and a bar chart reflecting number of reported issues over a period of time.
+    -a line chart reflecting number of paying customers over a period of time,
+     -and a bar chart reflecting number of reported issues over a period of time.
 
 -A **“data view”** of all issues, with an appearance similar to a spreadsheet, that is sortable and filterable.
 
