@@ -12,7 +12,7 @@ export default Ember.Route.extend({
 				if (issue.status === 'open') {
 					openIssues += 1;
 				}
-			})
+			});
 			return {openIssues: openIssues};
 		});
 
