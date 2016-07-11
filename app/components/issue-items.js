@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+
 export default Ember.Component.extend({
 
 //save the model in originalModel on initation
@@ -7,6 +8,7 @@ export default Ember.Component.extend({
   		this._super(...arguments);
   		this.originalModel = this.get("model");
   	},
+
 
 // sorting ascending order in the model by the attribute key
 	sortByAsc: function(attribute) {

@@ -7,8 +7,8 @@
 		<tr>
 			<th class="sorting" {{action 'sortBySubDate'}}>Submission date <span class="glyphicon glyphicon-sort"></span></th>
 			<th class="sorting" {{action 'sortByName'}}>Name <span class="glyphicon glyphicon-sort"></span></th>
-			<th class="sorting" {{action 'sortByEmail'}}>Email <span class="glyphicon glyphicon-sort"></span></th>
-			<th class="sorting" {{action 'sortByDesc'}}>Description <span class="glyphicon glyphicon-sort"></span></th>
+			<th class="sorting extraCol" {{action 'sortByEmail'}}>Email <span class="glyphicon glyphicon-sort"></span></th>
+			<th class="sorting extraCol" {{action 'sortByDesc'}}>Description <span class="glyphicon glyphicon-sort"></span></th>
 			<th class="sorting" {{action 'sortByStatus'}}>Status <span class="glyphicon glyphicon-sort"></span></th>
 			<th class="sorting" {{action 'sortByClose'}}>Closed date <span class="glyphicon glyphicon-sort"></span></th>
 			<th class="sorting" {{action 'sortByEmpl'}}>Employee <span class="glyphicon glyphicon-sort"></span></th>
@@ -21,8 +21,8 @@
 		<tr>
 			<td>{{issue.subDate}}</td>
 			<td>{{issue.name}}</td>
-			<td>{{issue.email}}</td>
-			<td>{{issue.desc}}</td>
+			<td class="extraCol">{{issue.email}}</td>
+			<td class="extraCol">{{issue.desc}}</td>
 			<td>{{issue.status}}</td>
 			<td>{{issue.closeDate}}</td>
 			<td>{{issue.employee}}</td>
