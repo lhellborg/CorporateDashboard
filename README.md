@@ -33,13 +33,18 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember server`
+* `ember server` to serve app in development mode.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Building
 
 * `ember build` (development)
-* `ember build --environment production` (production)
+* `ember build --environment=production` (production)
+
+## Running / Production
+
+* `ember server --environment=production` to serve app in production mode.
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Further Reading / Useful Links
 
