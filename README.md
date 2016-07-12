@@ -33,7 +33,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember server` to serve app in development mode.
+* `ember server --live-reload=false` to serve app in development mode without the reload function when a file is changed/saved.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Building
@@ -43,7 +43,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Production
 
-* `ember server --environment=production` to serve app in production mode.
+* `ember server --environment=production --live-reloafalse` to serve app in production mode without reloading page when data file is changed/saved.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Further Reading / Useful Links
