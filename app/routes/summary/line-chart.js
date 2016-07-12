@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
  	model() {
 
-		var that = this; //to get right scope of this in the promise function
+		var that = this; //to get right scope of this
 		(function poll() {
 			setTimeout(function() {
 				that.refresh();//re-querying the server for the latest information using the same parameters as when the route was first entered

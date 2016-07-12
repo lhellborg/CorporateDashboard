@@ -25,9 +25,3 @@ html, body {
 	font-size: x-large;
 }
 
-/*take away extra columns in table on mobile dev */
-@media (max-width: 580px) {
-	.extraCol {
-		display: none;
-	}
-}
