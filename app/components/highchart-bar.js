@@ -1,12 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-    // the chart data is retrieved when the site is initializing
-    init: function() {
-        this._super(...arguments);
-        this.chartData = this.get("model");
-    },
-
 
   chartOptions: {
 	chart: {

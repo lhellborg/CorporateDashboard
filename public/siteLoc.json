@@ -1,20 +1,20 @@
 [{
 	"id": "Site 1",
 	"centerLat": "37.7833",
-	"centerLng": "-122.4167",
+	"centerLng": "-122.4267",
 	"employee": "40",
 	"label": "1"
 	},
 	{
 	"id": "Site 2",
-	"centerLat": "37.7893",
+	"centerLat": "37.7753",
 	"centerLng": "-122.4167",
 	"employee": "30",
 	"label": "2"
 	},
 	{
 	"id": "Site 3",
-	"centerLat": "37.7833",
+	"centerLat": "37.7863",
 	"centerLng": "-122.4117",
 	"employee": "20",
 	"label": "3"
