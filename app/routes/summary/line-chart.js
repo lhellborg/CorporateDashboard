@@ -10,7 +10,7 @@ export default Ember.Route.extend({
 			}, 3000);
 		}) (); //run the function, when it is initialized the first time
 
- 		return Ember.$.get('/payingCustomers.json');
+ 		return Ember.$.get('/assets/data/payingCustomers.json');
  	}
 
 });

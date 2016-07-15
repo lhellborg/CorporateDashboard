@@ -6,7 +6,7 @@ export default Ember.Service.extend({
  // made in a service function since both summary window and the issues window needs the same data
 	model: function() {
 		var p = new Promise(function(resolve) {
-			Papa.parse('/issueItems.csv', {
+			Papa.parse('/assets/data/issueItems.csv', {
 				download:true,
 				header:true,
 				complete:function(results) {

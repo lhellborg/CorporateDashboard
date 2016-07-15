@@ -13,7 +13,7 @@ export default Ember.Route.extend({
 
 		var renderModel = function() {
 
-			Ember.$.get('/siteLoc.json').then(function(loc){
+			Ember.$.get('/assets/data/siteLoc.json').then(function(loc){
 				if (!_.isEqual(that.loc, loc)) { //check if the current model is NOT the same as the new model
 					that.render({model: loc}); //render the page with the new model
 					that.loc = loc; //set the that.loc to the new model

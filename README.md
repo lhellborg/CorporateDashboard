@@ -14,6 +14,9 @@ The dashboard application contains a header (with the currently selected dashboa
 
 -A **“data view”** of all issues, with an appearance similar to a spreadsheet, that is sortable and filterable.
 
+##Data files
+The data files are served from `public/assets/data` folder, even from production mode.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.

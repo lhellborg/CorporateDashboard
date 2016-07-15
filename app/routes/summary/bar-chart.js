@@ -12,7 +12,7 @@ export default Ember.Route.extend({
 		}) (); //run the function, when it is initialized the first time
 
 
-		return Ember.$.get('/issuesTime.json');
+		return Ember.$.get('/assets/data/issuesTime.json');
 
 
 	}
