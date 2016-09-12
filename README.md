@@ -1,4 +1,4 @@
-# Project 4 - Corporate dashboard
+#Corporate dashboard
 
 This is a corporate dashboard application using `Ember`,  as front-end MVC framework, `JQuery` and `Bootstrap` for facilitate JS and responsiveness. `PapaParse` is used to parse the .CSV file and `Highchart` to display nice charts. 
 
